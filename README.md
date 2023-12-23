@@ -19,7 +19,7 @@ Domain Automator automates the process of finding subdomains of a given domain u
 - **Subdomain Discovery**: Gathers subdomains from multiple sources like Baidu, VirusTotal, ThreatCrowd, etc.
 - **JSON Data Management**: Saves and processes JSON files for each source.
 - **IP Address Filtering**: Extracts subdomains that have specific IP address formats.
-- **File Management**: Organizes output into text files for easy analysis.
+- **File Management**: Organizes output into 2 x text files for easy analysis. One with subdomains and one with subdomains and the associated IP.
 
 ## Requirements
 - Python 3
