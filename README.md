@@ -12,7 +12,7 @@
 A tool for automated subdomain discovery and analysis!
 
 ## Summary
-Domain Automator automates the process of finding subdomains of a given domain. It relies on the great work by Christian Martorella who created "the Harvester". It queries various sources to gather subdomains, saves the results in JSON files, and processes them to extract unique subdomain names. This tool is designed to streamline the reconnaissance phase of penetration testing or cybersecurity assessments.
+Domain Automator automates the process of finding subdomains of a given domain using multiple search engines all at one (some require API keys). It relies on the great work by Christian Martorella who created "the Harvester". It queries various sources to gather subdomains, saves the results in JSON files, and processes them to extract unique subdomain names. This tool is designed to streamline the reconnaissance phase of penetration testing or cybersecurity assessments.
 
 ## Features
 
@@ -51,5 +51,6 @@ python SubdomainHarvester.py
 ## Upcoming Features
 - Enhanced parsing for more efficient subdomain extraction.
 - Additional sources for subdomain discovery.
+- API integration
 - Automated installation script.
 - Improved error handling and reporting.
