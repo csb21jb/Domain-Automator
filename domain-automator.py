@@ -1,5 +1,21 @@
 import os
 
+
+def print_banner():
+    print(r"""
+   ____                        _                         _                        _             
+ |  __ \                      (_)             /\        | |                      | |            
+ | |  | | ___  _ __ ___   __ _ _ _ __        /  \  _   _| |_ ___  _ __ ___   __ _| |_ ___  _ __ 
+ | |  | |/ _ \| '_ ` _ \ / _` | | '_ \      / /\ \| | | | __/ _ \| '_ ` _ \ / _` | __/ _ \| '__|
+ | |__| | (_) | | | | | | (_| | | | | |    / ____ \ |_| | || (_) | | | | | | (_| | || (_) | |   
+ |_____/ \___/|_| |_| |_|\__,_|_|_| |_|   /_/    \_\__,_|\__\___/|_| |_| |_|\__,_|\__\___/|_|   
+    """)
+    print("\nWritten by CB")
+    print("\nA Domain Enumeration Tool based on the Harvester tool by Christian Martorella")
+    print("\nVersion 1.0\n")
+ 
+print_banner()
+
 # Get the target domain from the user
 print("For example: facebook.com or google.com")
 target_domain = input("Enter the target domain to scan: ")
@@ -37,3 +53,4 @@ os.system(f"rm -rf {target_domain}_output")
 
 
 print("Subdomain harvesting and merging completed.")
+
