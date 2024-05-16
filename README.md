@@ -27,7 +27,7 @@ Domain Automator automates the process of finding subdomains of a given domain u
 - jq for JSON processing
 
 ## Installation
-To use SubdomainHarvester, ensure you have Python 3 and TheHarvester installed on your system.
+To use, ensure you have Python 3 and TheHarvester installed on your system.
 
 ```bash
 sudo apt update -y
